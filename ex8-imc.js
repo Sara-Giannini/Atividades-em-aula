@@ -3,6 +3,7 @@
 
 let alturaMetro=1.55
 let pesoKg=48
-let pesoAltura=pesoKg/alturaMetro*alturaMetro
-let imc=pesoAltura/2.89
+const pesoAltura=pesoKg/alturaMetro*alturaMetro
+const imc=pesoAltura/2.89.toFixed(0)
 console.log(imc)
+
